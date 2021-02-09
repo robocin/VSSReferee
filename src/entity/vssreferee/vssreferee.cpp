@@ -155,7 +155,7 @@ void VSSReferee::loop(){
 
         float stopTime;
         if(_manualStop)
-            if(_gameStartStop)  stopTime = 120;
+            if(_gameStartStop)  stopTime = 10;
             else                stopTime = 600;
         else                    stopTime = getConstants()->getStopWaitTime();
 
