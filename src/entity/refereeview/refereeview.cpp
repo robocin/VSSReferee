@@ -10,7 +10,7 @@ RefereeView::RefereeView(Constants *constants)
 {
     _constants = constants;
     _refereeUI = new MainWindow(nullptr, getConstants());
-    _refereeUI->show();
+    //_refereeUI->show();
 }
 
 RefereeView::~RefereeView(){
